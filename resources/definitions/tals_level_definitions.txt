@@ -1,0 +1,70 @@
+
+
+# Level 1
+# few block direct hit, very easy
+
+
+
+START_LEVEL
+level_name:Tal easy lvl
+ball_velocities:0,7 10,7 -10,7
+background:color(blue)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+-----yygyy
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# medium level
+
+START_LEVEL
+level_name: Tal mid lvl
+ball_velocities:-60,7 -45,7 45,7 60,7
+background:image(background_images/1.jpg)
+paddle_speed:8
+paddle_width:180
+block_definitions:definitions/talmid_block_difinitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+-
+-
+-
+glglglglglglglg
+orororororo
+ybybyby
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# spongbob level, hard
+
+START_LEVEL
+level_name:Tal Hard lvl
+ball_velocities:45,8 -45,8
+background:image(background_images/spongeBob.jpg)
+paddle_speed:9
+paddle_width:120
+block_definitions:definitions/spong_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:60
+num_blocks:4
+START_BLOCKS
+-gggggg----pppppp
+-bbbbbb----wwwwww
+-oooooo----cccccc
+-y*y*y*----*r*r*r
+END_BLOCKS
+END_LEVEL
